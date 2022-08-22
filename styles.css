@@ -1,0 +1,149 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+#hero-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #e5e7eb;
+}
+
+#hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  padding: 100px 50px;
+  background-color: gray;
+  text-align: center;
+}
+
+#information {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#information h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.card {
+  width: 150px;
+  height: 300px;
+  text-align: center;
+}
+
+.card-img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-color: #3882f6;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+blockquote {
+  margin: auto;
+  padding:auto;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+blockquote p {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+#signup {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+  padding: 20px 100px;
+  border-radius: 5px;
+  color: #e5e7eb;
+}
+
+#signup button {
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e7e8;
+}
