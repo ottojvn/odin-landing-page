@@ -1,0 +1,149 @@
+* {
+  font-family: "OpenSauceSansRegular", Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-dark {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+#hero-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  margin-top: 0px;
+}
+
+#header-logo {
+  font-size: 1.5rem;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 0.25rem 1rem;
+}
+
+#call-to-action {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em 5em;
+  border-radius: 10px;
+}
+
+#cta-content {
+  max-width: 80ch;
+}
+
+#information > h2 {
+  font-size: 2.25rem;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+#quote {
+  background-color: #e5e7eb;
+  font-size: 2.25rem;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+#quote > p {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+section {
+  padding: 1rem 5rem;
+}
+
+#main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+.no-decoration {
+  text-decoration-line: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#hero-content {
+  max-width: 50%;
+}
+
+#hero-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: grey;
+  width: 426px;
+  height: 240px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15ch;
+  text-align: center;
+}
+
+.card-img {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-color: #3882f6;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+footer {
+  text-align: center;
+  padding: 0.2rem;
+}

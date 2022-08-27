@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/open-sauce-sans"
+      type="text/css"
+    />
     <title>Product Landing Page</title>
   </head>
   <body>
-    <header class="bg-dark">
-      <div class="logo">Header Logo</div>
-      <ul class="links">
-        <li><a class="hero-text" href="#">Link One</a></li>
-        <li><a class="hero-text" href="#">Link Two</a></li>
-        <li><a class="hero-text" href="#">Link Three</a></li>
+    <header id="main-header" class="bg-dark">
+      <div id="header-logo">Header Logo</div>
+      <ul id="header-links">
+        <li><a class="bg-dark no-decoration" href="#">Link One</a></li>
+        <li><a class="bg-dark no-decoration" href="#">Link Two</a></li>
+        <li><a class="bg-dark no-decoration" href="#">Link Three</a></li>
       </ul>
     </header>
     <main>
@@ -26,12 +32,12 @@
           </p>
           <button>Sign up</button>
         </div>
-        <div class="hero-text image">this is a placeholder for an image</div>
+        <div id="hero-image-placeholder" class="hero-text">this is a placeholder for an image</div>
       </section>
 
       <section id="information">
         <h2>Some random information.</h2>
-        <div class="container cards">
+        <div class="container">
           <div class="card">
             <div class="card-img"></div>
             <p class="card-text">
@@ -59,15 +65,17 @@
         </div>
       </section>
 
-      <blockquote>
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's
-        just filling up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.
-        <p>- Thor, god of thunder</p>
-      </blockquote>
+      <section id="quote">
+        <blockquote>
+          This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.
+          <p>- Thor, god of thunder</p>
+        </blockquote>
+      </section>
 
-      <section id="signup">
-        <div>
+      <section id="call-to-action">
+        <div id="cta-content">
           <h2>Call to action! It's time!</h2>
           <p>
             Signup for our product by clicking that button right over there!
